@@ -5,7 +5,7 @@ if (value > 0) {
     alert('Result: positive');
 } else if (value < 0) {
     alert('Result: negative');
-} else if (value == 0) {
+} else if (value === 0) {
     alert('Result: zero');
 } else if (isNaN(value)) {
   	alert('Invalid entry. Please enter a number!');
